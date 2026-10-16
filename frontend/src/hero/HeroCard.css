@@ -1,0 +1,50 @@
+.hero-card {
+  background-color: #1a1a1a;
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-card:first-child {
+  border-color: red;
+}
+
+.hero-card:last-child {
+  border-color: #2563eb;
+}
+
+.hero-card-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.hero-card-title {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-card-button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero-card:first-child .hero-card-button {
+  background-color: red;
+}
+
+.hero-card:last-child .hero-card-button {
+  background-color: #2563eb;
+}

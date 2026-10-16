@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #031127;
+  background-image: 
+    radial-gradient(circle at 85% 85%, rgba(0, 75, 180, 0.35) 0%, transparent 60%),
+  radial-gradient(circle at 15% 60%, rgba(200, 20, 20, 0.35) 0%, transparent 55%),
+  linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: cover, 4px 4px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.8);
+  font-family: 'Inter', sans-serif;
+  padding-top: 100px;
+}

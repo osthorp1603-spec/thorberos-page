@@ -1,0 +1,26 @@
+.featured {
+  padding: 2rem 2rem 4rem;
+  text-align: center;
+}
+
+.featured-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #c0c0c0;
+  margin-bottom: 2rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featured-trust {
+  color: #a0a0a0;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  margin-top: -1rem;
+}
