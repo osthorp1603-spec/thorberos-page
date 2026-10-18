@@ -1,4 +1,4 @@
-import { proyectos } from "../data/projects"
+import { proyectos } from "../../data/projects"
 import { ProjectCard } from "./ProjectCard"
 import "./FeaturedProjects.css"
 

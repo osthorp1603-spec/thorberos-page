@@ -1,5 +1,5 @@
 import { Hero } from "../hero/Hero"
-import { FeaturedProjects } from "../featured/FeaturedProjects"
+import { FeaturedProjects } from "../featured//grid-projects/FeaturedProjects"
 
 export const Home = () => {
   return (
