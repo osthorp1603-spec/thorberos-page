@@ -9,18 +9,21 @@ export const AboutSection = () => {
         <p className="about-subtitle">Creerás que lo imposible se puede crear.</p>
         
         <p className="about-paragraph">
-          Soy ingeniero electrónico y mi camino en el desarrollo de software
-          comenzó a finales de 2024, cuando decidí adentrarme en un mundo
-          que apenas empezaba a conocer. Lo que comenzó como un reto de
-          aprendizaje se convirtió en una pasión por construir soluciones
-          tecnológicas y transformar ideas en proyectos reales.
+          THORBEROS nace de la unión entre la ingeniería electrónica,
+          la lógica y el interés por crear soluciones tecnológicas.
+          A finales de 2024, comencé a adentrarme en el desarrollo de
+          software, un camino que me ha permitido aprender,
+          experimentar y convertir mis ideas en aplicaciones que
+          responden a necesidades reales.
         </p>
         
         <p className="about-paragraph">
-          Hoy, THORBEROS reúne mi trabajo en desarrollo de software y mis
-          primeros pasos en la creación de videojuegos. Cada proyecto es
-          una oportunidad para aprender, experimentar y llevar una idea
-          más allá de lo que parecía posible.
+          Hoy, THORBEROS reúne mis proyectos de software y desarrollo
+          de videojuegos. Detrás de cada proyecto hay una idea, un
+          problema por resolver y el interés por encontrar la mejor
+          forma de hacerlo realidad. Más que crear por crear, se
+          trata de aprender en el proceso, probar nuevas
+          posibilidades y construir cosas que funcionen.
         </p>
       </div>
 

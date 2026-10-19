@@ -16,7 +16,7 @@ export const ContactSection = () => {
           <span className="contact-icon">💬</span>
           <div>
             <h3>WhatsApp</h3>
-            <p>+57 3226579935"</p>
+            <p>+57 3226579935</p>
           </div>
         </a>
 

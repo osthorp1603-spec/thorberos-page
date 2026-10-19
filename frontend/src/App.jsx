@@ -1,4 +1,6 @@
-import { Routes,Route } from "react-router-dom"
+import { useEffect } from "react"
+import { Routes,Route,useLocation } from "react-router-dom"
+import ReactGA from "react-ga4"
 import { Layout } from "./layout/Layout"
 import { Home } from "./pages/Home"
 import { Software } from "./pages/Software"
@@ -9,6 +11,13 @@ import { Services } from "./pages/Services"
 
 
 function App() {
+  const location = useLocation()
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname })
+  }, [location])
+
+
   return (
     <>
     <Layout>
