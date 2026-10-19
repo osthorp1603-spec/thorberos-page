@@ -1,9 +1,8 @@
-
+import { servicios } from "../data/services.js"
+import { ServicesGrid } from "../featured/services-grid/ServicesGrid.jsx"
 
 export const Services = () => {
   return (
-    <div>
-        <h1>Servicios</h1>
-    </div>
+    <ServicesGrid servicios={servicios} />
   )
 }

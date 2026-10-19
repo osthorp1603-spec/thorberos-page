@@ -1,5 +1,4 @@
 .software-container {
-  /* Contenedor principal de toda la página */
   width: 100%;
   margin-top: -15px;
 }
@@ -20,16 +19,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Esta línea es la magia: hace que el video llene el espacio sin deformarse */
+  object-fit: cover; 
   z-index: 1;
 }
 
-/* Esta capa oscura hace que el texto se lea bien sobre el video */
 .proyecto-seccion::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(10, 15, 30, 0.7); /* Oscurece el video un 60% */
+  background: rgba(10, 15, 30, 0.8); 
   z-index: 2; 
 }
 
@@ -42,48 +40,78 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Esto centra la flecha y el texto */
+  align-items: center; 
 }
 
+/* Base del título (sin color, solo estructura) */
 .contenido-encima h2 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;     
 }
 
-.contenido-encima p {
-  font-size: 1.2rem;
-  color: #d1d5db;
+/* Efecto de degradado para el Tema AZUL (más fuerte que antes) */
+.tema-azul .contenido-encima h2 {
+  background-image: linear-gradient(90deg, #ffffff 0%, #3b82f6 100%);
+}
+
+/* Efecto de degradado para el Tema ROJO */
+.tema-rojo .contenido-encima h2 {
+  background-image: linear-gradient(90deg, #ffffff 0%, #ef4444 100%);
+}
+
+.lenguaje-tag {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
   margin-bottom: 2rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-/* La flecha hacia abajo */
+/* Base de la flecha (sin color de texto ni borde) */
 .flecha-abajo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 60px;
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.4); /* Fondo transparente */
-  border: 2px solid white; /* Borde blanco */
-  border-radius: 50%; /* Lo hace un círculo perfecto */
+  background-color: rgba(255, 255, 255, 0.1); /* Un fondo más sutil */
+  border: 2px solid; /* El color del borde vendrá del tema */
+  border-radius: 50%; 
   font-size: 2rem;
-  color: blue;
   text-decoration: none;
   margin-top: 2rem;
-  animation: rebote 2s infinite; /* Mantiene la animación */
-  transition: background-color 0.3s ease;
+  animation: rebote 2s infinite; 
+  transition: all 0.3s ease;
   flex-shrink: 0;
 }
 
-/* Efecto al pasar el mouse */
-.flecha-abajo:hover {
-  background-color: white;
-  color: rgb(135, 0, 0);
+/* Colores de la flecha para Tema AZUL */
+.tema-azul .flecha-abajo {
+  color: #3b82f6;
+  border-color: #3b82f6;
+}
+.tema-azul .flecha-abajo:hover {
+  background-color: #3b82f6;
+  color: white;
 }
 
-/* La animación */
+/* Colores de la flecha para Tema ROJO */
+.tema-rojo .flecha-abajo {
+  color: #ef4444;
+  border-color: #ef4444;
+}
+.tema-rojo .flecha-abajo:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
 @keyframes rebote {
   0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
   40% { transform: translateY(-10px); }
@@ -94,17 +122,14 @@
   .contenido-encima h2 {
     font-size: 2rem;
   }
-
   .contenido-encima p {
     font-size: 1rem;
   }
-
   .proyecto-seccion {
     height: auto;
     min-height: 80vh;
     padding: 4rem 1rem;
   }
-
   .flecha-abajo {
     width: 45px;
     height: 45px;

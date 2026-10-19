@@ -8,7 +8,7 @@ export const Software = () => {
 
 
   return (
-    <FullScreenProjects proyectos={proyectosSoftware}/>
+    <FullScreenProjects proyectos={proyectosSoftware}tema="azul"/>
   
   )  
 }

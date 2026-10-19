@@ -8,7 +8,7 @@ export const Games = () => {
 
 
   return (
-    <FullScreenProjects proyectos={proyectosGames}/>
+    <FullScreenProjects proyectos={proyectosGames}tema="rojo"/>
   
   )  
 }

@@ -1,0 +1,60 @@
+.service-card {
+  /* Fondo oscuro elegante, igual al de la página de inicio */
+  background-color: rgba(26, 26, 26, 0.8); 
+  /* Borde AZUL porque son servicios de Software */
+  border: 1px solid #2563eb; 
+  border-radius: 12px;
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Al pasar el mouse, brilla con el azul (como en la Home) */
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15); /* Sombra azul sutil */
+}
+
+/* EL GANCHO (La pregunta) */
+.service-hook {
+  /* Un gris muy claro, elegante, que no compite con el título */
+  color: #cbd5e1; 
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  font-style: italic;
+}
+
+/* EL TÍTULO */
+.service-title {
+  /* Blanco puro para máximo contraste (igual que en la Home) */
+  color: #ffffff; 
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 1.2rem 0;
+}
+
+/* LA DESCRIPCIÓN */
+.service-desc {
+  /* El mismo gris de las tarjetas de la Home */
+  color: #a0a0a0; 
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+  flex-grow: 1; 
+}
+
+/* EL CONTEXTO (El pie de la tarjeta) */
+.service-context {
+  display: inline-block;
+  /* Azul tenue para mantener la coherencia de "Software" */
+  color: #60a5fa; 
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
