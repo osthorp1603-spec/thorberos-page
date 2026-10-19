@@ -90,4 +90,24 @@
   60% { transform: translateY(-5px); }
 }
 
+@media (max-width: 768px) {
+  .contenido-encima h2 {
+    font-size: 2rem;
+  }
 
+  .contenido-encima p {
+    font-size: 1rem;
+  }
+
+  .proyecto-seccion {
+    height: auto;
+    min-height: 80vh;
+    padding: 4rem 1rem;
+  }
+
+  .flecha-abajo {
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+}
