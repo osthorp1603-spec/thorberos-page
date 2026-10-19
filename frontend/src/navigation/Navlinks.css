@@ -4,21 +4,25 @@
   list-style: none;
   padding: 0;
   margin: 0;
- 
 }
 
 .nav-links a {
   text-decoration: none;
-  color: white;
-  font-size: 0.9rem;
+  color: #a0a0a0;
+  font-size: 0.95rem;
   font-weight: 500;
-  transition: color 0.3s ease;
+  display: inline-block; /* <-- ESTO ES CLAVE PARA QUE EL SALTO FUNCIONE */
+  transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: white;
+  color: #ffffff;
+  transform: translateY(-5px); /* Subimos a -5px para que se note más */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 .nav-links a.active {
-  color: white;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* Brillo en vez de línea */
 }

@@ -1,3 +1,7 @@
+import { ContactSection } from "../featured/contact-section/ContactSection"
+
 export const Contact = () => {
-  return <h1>Contacto</h1>
+  return (
+    <ContactSection />
+  )
 }

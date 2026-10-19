@@ -1,3 +1,7 @@
+import { AboutSection } from "../featured/about-section/AboutSection"
+
 export const About = () => {
-  return <h1>Sobre mí</h1>
+  return (
+    <AboutSection />
+  )
 }

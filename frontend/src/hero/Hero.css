@@ -5,9 +5,12 @@
 }
 
 .hero-title {
-  font-size: 3rem;
-  font-weight: bold;
-  color: white;
+  font-size: 2.2rem; 
+  font-weight: 700; 
+  color: #bfdbfe; 
+  letter-spacing: 1px; 
+  max-width: 800px; 
+  margin: 0 auto; 
 }
 
 .hero-sub {

@@ -1,13 +1,14 @@
 .hero-card {
-  background-color: #1a1a1a;
+   background-color: #1a1a1a;
   border: 2px solid;
   border-radius: 12px;
   padding: 2rem;
-  width: 450px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-card:first-child {
@@ -47,4 +48,20 @@
 
 .hero-card:last-child .hero-card-button {
   background-color: #2563eb;
+}
+
+.hero-card:hover {
+  transform: translateY(-8px);
+}
+
+.hero-card:first-child:hover {
+  box-shadow: 0 15px 30px rgba(255, 0, 0, 0.25);
+}
+
+.hero-card:last-child:hover {
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.25);
+}
+
+.hero-card:active {
+  transform: translateY(-2px);
 }

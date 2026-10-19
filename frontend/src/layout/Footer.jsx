@@ -29,7 +29,7 @@ export const Footer = () => {
         <img src={imagenLinkedin} alt="LinkedIn" />
         </a>
     </div>
-    <p className="footer-copy">© 2026 Thorberos. Todos los derechos reservados.</p>
+    <p className="footer-copy">© {new Date().getFullYear()} Thorberos. Todos los derechos reservados.</p>
     </footer>
   )
 }

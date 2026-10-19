@@ -56,22 +56,22 @@
 
 /* Efecto de degradado para el Tema AZUL (más fuerte que antes) */
 .tema-azul .contenido-encima h2 {
-  background-image: linear-gradient(90deg, #ffffff 0%, #3b82f6 100%);
+  background-image: linear-gradient(90deg, #eff6ff 0%, #3b82f6 100%);
 }
 
 /* Efecto de degradado para el Tema ROJO */
 .tema-rojo .contenido-encima h2 {
-  background-image: linear-gradient(90deg, #ffffff 0%, #ef4444 100%);
+  background-image: linear-gradient(90deg, #fef2f2 0%, #ef4444 100%);
 }
 
 .lenguaje-tag {
-  color: #e2e8f0;
-  font-size: 0.9rem;
-  font-weight: 500;
-  letter-spacing: 3px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  margin-bottom: 2rem;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 0.8);
+  margin-bottom: 2.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Base de la flecha (sin color de texto ni borde) */
