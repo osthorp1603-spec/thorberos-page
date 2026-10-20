@@ -11,14 +11,14 @@ export const AboutSection = () => {
         <p className="about-paragraph">
           THORBEROS nace de la unión entre la ingeniería electrónica,
           la lógica y el interés por crear soluciones tecnológicas.
-          A finales de 2024, comencé a adentrarme en el desarrollo de
-          software, un camino que me ha permitido aprender,
-          experimentar y convertir mis ideas en aplicaciones que
+          A finales de 2024, se inició el camino en el desarrollo de
+          software, un camino que  ha permitido aprender,
+          experimentar y convertir ideas en aplicaciones que
           responden a necesidades reales.
         </p>
         
         <p className="about-paragraph">
-          Hoy, THORBEROS reúne mis proyectos de software y desarrollo
+          Hoy, THORBEROS reúne  proyectos de software y desarrollo
           de videojuegos. Detrás de cada proyecto hay una idea, un
           problema por resolver y el interés por encontrar la mejor
           forma de hacerlo realidad. Más que crear por crear, se
@@ -28,7 +28,9 @@ export const AboutSection = () => {
       </div>
 
       <div className="about-image">
-        <div className="image-placeholder">Imagen aquí</div>
+        <div className="image-placeholder">
+        <img src="/images/nosotros.jpeg" alt="nosotros" className="img-real" />
+      </div>
       </div>
 
     </section>

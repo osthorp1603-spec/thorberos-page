@@ -13,14 +13,13 @@
   letter-spacing: 2px; 
   line-height: 1;
 }
-/* Subtítulo (SOFTWARE & GAMES) */
+/* Subtítulo  */
 .logo-container p {
   margin: 0;
   color: white;
-  font-size: 0.8rem;
-  letter-spacing: 4px;
-  margin-top: 4px; 
-  
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-top: 4px;  
 }
 
 .text1 {
@@ -31,3 +30,17 @@
   color: blue;
 }
 
+.logo-container .logo-slogan {
+  margin: 0;
+  color: #f1f5f9;
+  font-size: 0.65rem;
+  font-weight: 600;
+  margin-top: 8px;
+  text-transform: uppercase;
+  text-align: justify;
+  text-align-last: justify;
+  width: 100%;
+  text-shadow: 
+    -2px 0px 12px rgba(220, 38, 38, 0.8), 
+    2px 0px 12px rgba(37, 99, 235, 0.8);
+}

@@ -7,7 +7,7 @@ export const Logo = () => {
         <span className="text1">THOR</span>
         <span className="text2">BEROS</span>
       </h1>
-      <p>SOFTWARE & GAMES</p>        
+      <p className="logo-slogan">Creerás que lo imposible se puede crear.</p>        
     </div>
   )
 }

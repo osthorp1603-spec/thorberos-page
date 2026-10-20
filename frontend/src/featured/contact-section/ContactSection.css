@@ -28,8 +28,9 @@
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -44,6 +45,8 @@
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
   position: relative;
+  width: calc(50% - 1rem);
+  max-width: 450px;
 }
 
 /* ALTERNANCIA DE COLORES (El toque de marca) */
@@ -118,6 +121,11 @@
 .social-btn:hover {
   background-color: rgba(26, 26, 26, 0.9);
   border-color: #ef4444; /* Detalle rojo al pasar el mouse */
+}
+.contact-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
